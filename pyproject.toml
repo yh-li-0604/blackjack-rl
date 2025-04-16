@@ -12,4 +12,5 @@ dependencies = [
     "seaborn>=0.13.2",
     "tqdm>=4.67.1",
     "ipykernel>=6.29.5",
+    "gym>=0.26.2",
 ]

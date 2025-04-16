@@ -17,6 +17,7 @@ ale-py==0.10.2
 asttokens==3.0.0
     # via stack-data
 cloudpickle==3.1.1
+    # via gym
     # via gymnasium
     # via stable-baselines3
 colorama==0.4.6
@@ -44,6 +45,10 @@ fsspec==2025.3.2
     # via torch
 grpcio==1.71.0
     # via tensorboard
+gym==0.26.2
+    # via blackjack-rl
+gym-notices==0.0.8
+    # via gym
 gymnasium==1.1.1
     # via blackjack-rl
     # via stable-baselines3
@@ -90,6 +95,7 @@ numpy==2.2.4
     # via ale-py
     # via blackjack-rl
     # via contourpy
+    # via gym
     # via gymnasium
     # via matplotlib
     # via opencv-python
